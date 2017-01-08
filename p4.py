@@ -1,7 +1,7 @@
 import math
 
 def isPalindrome(string):
-	return string[:len(string)//2] == string[math.ceil(len(string)/2):][::-1]
+	return string = string[::-1]
 
 
 largest = -1

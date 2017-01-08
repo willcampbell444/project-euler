@@ -1,5 +1,3 @@
-# fairly slow
-
 num = 600851475143
 
 primes = []

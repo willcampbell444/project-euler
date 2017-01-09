@@ -1,9 +1,9 @@
 import json
 
-primes = []
+primes = [2]
 
 count = 2
-while len(primes) < 10001:
+while count < 10001:
 	count += 1
 	isPrime = True
 	for p in primes:
@@ -15,5 +15,5 @@ while len(primes) < 10001:
 
 print(primes[-1])
 
-with open("primes.json", "w") as file:
-	file.write(json.dumps(primes))
+# with open("primes.json", "w") as file:
+# 	file.write(json.dumps(primes))
